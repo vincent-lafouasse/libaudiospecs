@@ -1,0 +1,9 @@
+build/
+cPlayer
+.cache
+.idea
+.DS_Store
+*.asd
+Makefile
+cmake-build/
+idea-build/
