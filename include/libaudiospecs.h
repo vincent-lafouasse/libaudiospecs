@@ -7,6 +7,11 @@ extern "C" {
 #include <stdint.h>
 
 typedef struct {
+    uint32_t nChannels;
+    uint32_t sampleRate;
+} AudioFormat;
+
+typedef struct {
     float** data;
     uint32_t size;
     uint32_t nChannels;
